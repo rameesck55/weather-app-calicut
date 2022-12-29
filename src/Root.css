@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+}
+.root{
+    margin-left: 85px;
+    margin-top: 35px;
+    margin-right: 85px;
+    border-radius: 50%;
+
+}
+.root-body{
+    height: 500px ;
+    
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 43px;
+    padding: 10px;
+    padding-top: 5px;
+    
+    box-shadow: 20px 20px 50px black;
+
+}
+.header{
+    background-color: rgb(43, 7, 7);
+    height: 150px;
+}
+.heading{
+    text-align: center;
+    color: rgb(226, 101, 29);
+    padding-top: 70px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-font{
+    text-align: center;
+    color: rgb(85, 81, 81);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 0px;
+}
+.day-1{
+    box-shadow: 20px 20px 50px black;
+    width: 200px;
+    margin-top: -100px;
+    text-align: center;
+    height: fit-content;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 25%;
+    /* font-size: 20px; */
+    text-decoration: wavy;
+    background-color: white;
+    
+   
+   
+}
+.day-1{
+    margin-left: 10px;
+}
+
+.day-1:hover{
+    box-shadow: 20px 20px 50px rgb(20, 206, 60);
+    /* font-size: 18px; */
+}
+
+.days-weather{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 125px;
+    position: relative;
+}
+.day{
+    font-weight: bold;
+}
+.date-time{
+    opacity: 0.95;
+}
+.temperature{
+    font-weight: bold;
+}
+.full-date{
+    opacity: 0.95;
+}
+.weather-condition{
+    opacity: 0.95;
+}
+
+
+
+
